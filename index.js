@@ -48,7 +48,7 @@ exports.load_wildduck_ini = function() {
     const plugin = this;
 
     plugin.cfg = plugin.config.get(
-        'wildduck.yaml',
+        'wildduck.js',
         {
             booleans: ['attachments.decodeBase64', 'sender.enabled']
         },
